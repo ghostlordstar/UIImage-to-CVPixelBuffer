@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 This is helper lib for CVPixelBuffer.
                        DESC
 
-  s.homepage         = 'https://github.com/Hansen/CVPixelBufferHelper'
+  s.homepage         = 'https://github.com/Hansen/UIImage-to-CVPixelBuffer'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Hansen' => 'heshanzhang@outlook.com' }
-  s.source           = { :git => 'https://github.com/ghostlordstar/CVPixelBufferHelper.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/ghostlordstar/UIImage-to-CVPixelBuffer.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '10.0'
