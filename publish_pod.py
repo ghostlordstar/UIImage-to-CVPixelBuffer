@@ -92,7 +92,7 @@ def pushToPrivateSpecs():
 
     checkCommand = "pod lib lint %s.podspec --allow-warnings"%podName
     pushCommand = "pod trunk push %s.podspec --allow-warnings"%podName
-    updatePirvateRepo = "cd Example&&pod update SwiftyFileBrowser"
+    updatePirvateRepo = "cd Example&&pod update CVPixelBufferHelper"
     checkRet = os.system(checkCommand)
     if checkRet != 0:
         print("校验出错，请检查spec文件是否配置正确")
@@ -113,7 +113,7 @@ if __name__ == "__main__":
     #os.chdir(sys.argv[1])
     # 输入库名称
     # podName = str(input("请输入要发布的pod库名称:"))
-    podName = "SwiftyFileBrowser"
+    podName = "CVPixelBufferHelper"
     # 输入操作类型
     selectOperator()
     # 输入发布类型
